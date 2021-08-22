@@ -1,0 +1,29 @@
+{
+  "name": "checkitoutapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoizesFSantos/CheckItOutAPI.git"
+  },
+  "author": "MoizesF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoizesFSantos/CheckItOutAPI/issues"
+  },
+  "homepage": "https://github.com/MoizesFSantos/CheckItOutAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
